@@ -1,0 +1,24 @@
+What is Big O Notation, and why does it matter?
+According to wikipedia:
+“Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. 
+It is a member of a family of notations invented by Paul Bachmann, Edmund Landau, and others, collectively called Bachmann–Landau notation or asymptotic notation.”
+
+In simple words Big O notation describes the complexity of your code using algebraic terms.
+A way to describe how well an algorithm performs as its input size grows.
+As we add more inputs or data points to an algorithm there are two things that may grow in complexity. 
+It may take longer to run the algorithm which we call time complexity or it may require more space which we call space complexity.
+
+For example, if we have an array of elements and we use a for loop to iterate over its all elements one by one, we have linear complexity. It takes 1 unit of 
+time to loop over each element. 
+
+If we have a sorted array we can implement binary search. We can start in the middle and jump back and forth to find what we are looking for. 
+Binary search has logarthmic complexity. It scales much better to a large number of inputs. 
+
+At the most efficient end of spectrum we have constant time. For example looking at an element of an array by its index. No matter how big that array is it should
+always take the same amount of time. 
+
+On the other hand things can also become less efficient. For example a for loop within a for loop. This will have quadratic complexity. 
+Things can get worse with exponential complexity. For example looping over every possible combination in an array.
+
+Some algorithms may have multiple different growth rates of complexity. Always simplify your notation to fastest growing worst case scenario.
+O(N^2) + O(LOG N) = O(N^2)
