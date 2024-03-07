@@ -1,0 +1,23 @@
+An array data structure is a fundamental concept in computer science that stores a collection of elements in a contiguous block of memory. 
+It allows for efficient access to elements using indices and is widely used in programming for organizing and manipulating data.
+An array is a linear data structure that collects elements of the same data type (java, c++), same + different data type (python) and stores them in contiguous and adjacent memory locations. 
+Arrays work on an index system starting from 0 to (n-1), where n is the size of the array.
+
+Operations on Array in Python
+Below are some operations that can be performed in an array:
+append()
+insert()
+pop()
+remove()
+index()
+reverse()
+
+In java and c++ there are two different types of arrays static and dynamic arrays.
+In python only dynamic arrays. 
+
+Static arrays -> fixed memory size
+Dynamic arrays -> variable or dynamic memory
+
+Accessing the element of array by index will have Big O complexity of order of 1.
+If we iterate over each element using a for loop then it will have Big O complexity of order of n.
+
